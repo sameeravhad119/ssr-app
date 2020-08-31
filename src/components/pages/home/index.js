@@ -5,15 +5,6 @@ import { add } from '../../../redux/actions/count';
 class Home extends Component {
     constructor() {
         super();
-        this.state = {
-            count: 0
-        }
-    }
-
-    add = () => {
-        this.setState(p => ({
-            count: p.count + 1
-        }))
     }
 
     render() {
